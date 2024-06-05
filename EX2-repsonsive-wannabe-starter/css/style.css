@@ -128,5 +128,12 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 @media screen and (max-width: 768px) {
-    
+    .col {
+        display: inline-block;
+    }
+    .steps.text-center .container {
+        background-color: #eebbc3;
+        height: 100%;
+        width: 100vw;
+    }
 }
